@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table width="600" align="center">
+        <caption>
+            <!--行内样式表，偶尔使用CSS-->
+            <h3 style="color: pink; font-size: 25px;">青春不常在，抓紧谈恋爱</h3>
+        </caption>
+        <tr>
+            <td>性别</td>
+            <td>
+                <input type="radio" name="sex" /><img src="man.jpg" alt="">男
+                <input type="radio" name="sex" /><img src="women.jpg" alt="">女
+            </td>
+        </tr>
+        <tr>
+            <td>生日</td>
+            <td>
+                <!--下拉菜单,默认选中某一选项“selected="selected"”-->
+                <select name="year">
+                    <option value="请选择年">请选择年</option>
+                    <option value="1990" selected="selected">1990</option>
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                </select>
+                <select name="month">
+                    <option value="请选择月">请选择月</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <select name="day">
+                    <option value="请选择日">请选择日</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>所在地区</td>
+            <td>
+                <input type="text" value="北京" style="color: #ccc;" />
+            </td>
+        </tr>
+        <tr>
+            <td>婚姻状况</td>
+            <td>
+                <input type="radio" name="marry" />未婚
+                <input type="radio" name="marry" />离婚
+                <input type="radio" name="marry" />丧偶
+            </td>
+        </tr>
+        <tr>
+            <td>学历</td>
+            <td>
+                <input type="text" value="小学" />
+            </td>
+        </tr>
+        <tr>
+            <td>月薪</td>
+            <td>
+                <input type="text" value="5000-10000" />
+            </td>
+        </tr>
+        <tr>
+            <td>手机号</td>
+            <td>
+                <input type="text" maxlength="11" />
+            </td>
+        </tr>
+        <tr>
+            <td>昵称</td>
+            <td>
+                <input type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td>喜欢的类型</td>
+            <td>
+                <input type="checkbox" name="love" />妩媚
+                <input type="checkbox" name="love" />柔美
+                <input type="checkbox" name="love" />可爱
+                <input type="checkbox" name="love" />小鲜肉
+                <input type="checkbox" name="love" />型男
+                <input type="checkbox" name="love" />气质
+            </td>
+        </tr>
+        <tr>
+            <td>自我介绍</td>
+            <td>
+                <textarea cols="48" rows="8" style="color: #ccc;"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="image" src="btn.png" />
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="checkbox" checked="checked" />我同意注册条款和会员加入标准
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <a href="#">我是会员，立即登录</a>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <h3>我承诺</h3>
+                <ul>
+                    <li>年满18岁，单身</li>
+                    <li>抱着严肃的态度</li>
+                    <li>真诚寻找另一半</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

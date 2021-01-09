@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--表单的目的是收集用户信息-->
+    <!--表单是由三部分组成的：1.表单控件；2.提示信息/提示文本；3.表单域-->
+    <!--input控件-->
+    <table width="600" border="0" cellspacing="0" cellpadding="0">
+        <caption>
+            <h3>青春不常在，抓紧谈恋爱</h3>
+        </caption>
+        <tr>
+            <td>所在地区</td>
+            <td><input type="text" value="上海" /></td>
+        </tr>
+        <tr>
+            <td>用户名</td>
+            <td><input type="text" value="刘巧玲" /></td>
+        </tr>
+        <tr>
+            <td>密码</td>
+            <td><input type="password" maxlength="8" /></td>
+        </tr>
+        <tr>
+            <td>性别</td>
+            <!--radio 单选按钮，如果是一组，我们必须给他们命名相同的名字name,实现多选一，单选-->
+            <td>
+                <input type="radio" name="sex" />男
+                  <!--checked 默认被选中的状态-->
+                <input type="radio" name="sex" checked="checked" />女
+            </td>
+        </tr>
+        <tr>
+            <td>喜欢的类型</td>
+            <!--checkbox 复选按钮，如果是一组，我们必须给他们命名相同的名字name,实现多选-->
+            <td>
+                <input type="checkbox" name="love" />可爱
+                <input type="checkbox" name="love" />气质
+                <input type="checkbox" name="love" />帅气
+            </td>
+        </tr>
+        <!--button的两种写法-->
+        <tr>
+            <td></td>
+            <td><button>免费注册</button></td>
+        </tr>
+          <!--submit 提交； reset 重置-->
+        <tr>
+            <td></td>
+            <td>
+                <input type="button" value="免费注册">
+                <input type="submit" value="提交">
+                <input type="reset" value="重置">
+            </td>
+        </tr>
+          <!--image 图像形式的提交按钮-->
+        <tr>
+            <td></td>
+            <td>
+                <input type="image" src="btn.png" value="免费注册">
+            </td>
+        </tr>
+          <!--file 文件域-->
+        <tr>
+            <td>上传头像</td>
+            <td>
+                <input type="file">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
