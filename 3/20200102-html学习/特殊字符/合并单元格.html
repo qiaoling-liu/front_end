@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<!--跨行合并：rowspan；跨列合并：colspan;至上而下，至左而右进行合并;删除的个数=合并的个数-1-->
+	<table width="400" border="0" cellpadding="0" cellspacing="0">
+		<thead>
+			<tr>
+				<th>姓名</th>
+				<th>学号</th>
+				<th colspan="2">性别</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan="2">刘巧玲</td>
+				<td>Y30171433</td>
+				<td></td>
+				<td>女</td>
+			</tr>
+				<tr>
+				<td>Y30171433</td>
+				<td>男</td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

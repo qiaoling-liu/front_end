@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /*内部样式表：选择器{属性：属性值；} ，选择器用来选择标签的*/
+    th {
+        color: purple;
+    }
+
+    td {
+        font-size: 14px;
+    }
+
+    tr {
+        height: 30px;
+    }
+    </style>
+</head>
+
+<body>
+    <!--cellspacing 单元格与单元格之间的距离;cellpadding单元格内容距离单元格边框的距离-->
+    <!--三参为0，将border、cellspacing与cellpadding的参数设置为0-->
+    <table width="600" border="1" align="left" cellspacing="0" cellpadding="0">
+        <!--caption表格标题，紧跟标题，仅存于表格中-->
+        <caption><strong>小说排行榜</strong></caption>
+        <thead>
+            <tr>
+                <th>排名</th>
+                <th>关键词</th>
+                <th>趋势</th>
+                <th>今日搜索</th>
+                <th>最近七日</th>
+                <th>相关链接</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>鬼吹灯</td>
+                <td><img src="down.jpg" alt=""></td>
+                <td>345</td>
+                <td>123</td>
+                <td>
+                    <a href="#">贴吧</a>
+                    <a href="#">图片</a>
+                    <a href="#">百科</a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>盗墓笔记</td>
+                <td><img src="down.jpg" alt=""></td>
+                <td>124</td>
+                <td>675432</td>
+                <td>
+                    <a href="#">贴吧</a>
+                    <a href="#">图片</a>
+                    <a href="#">百科</a>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>西游记</td>
+                <td><img src="up.jpg" alt=""></td>
+                <td>212</td>
+                <td>7654</td>
+                <td>
+                    <a href="#">贴吧</a>
+                    <a href="#">图片</a>
+                    <a href="#">百科</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
