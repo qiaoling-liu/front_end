@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /*样式显示效果跟HTML元素中的类名先后顺序没有关系，受CSS样式书写的上下顺序有关；各个类名中间用空格隔开*/
+    /*多类名选择器在后期布局比较复杂的情况下，还是较多使用的。*/
+    .red {
+        color: red;
+    }
+
+    .deeppink {
+        color: deeppink;
+        font-size: 20px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="red deeppink">徐小武是个大坏蛋</div>
+    <div class="deeppink red">徐小武是个大坏蛋</div>
+    <div>徐小武是个大坏蛋</div>
+    <p class="deeppink">这是一个段落。</p>
+    <p>这是一个段落。</p>
+    <p>这是一个段落。</p>
+    <div class="red">徐小武是个大坏蛋</div>
+</body>
+
+</html>
